@@ -6,11 +6,8 @@ Manage dotfiles:
 * brew install stow
 
 
-Neovim (nightly):
-* brew install --HEAD luajit
-* brew install --HEAD neovim
-* LVBRANCH=master bash <(curl -s https://raw.githubusercontent.com/ChristianChiarulli/lunarvim/rolling/utils/installer/install.sh)
-
+LunarVim:
+* Follow install instructions at [lunarvim.org](https://www.lunarvim.org/01-installing.html)
 
 zsh funcs:
 * brew install fzf
