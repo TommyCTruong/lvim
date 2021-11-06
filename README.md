@@ -24,6 +24,9 @@ zsh aliases:
 tmux:
 * brew install tmux
 
+gitmux:
+* go install github.com/arl/gitmux@latest
+
 ## Install
 
 Dotfiles can be installed using `stow`, which  is a symlink farm manager. It takes distinct packages of software and/or
