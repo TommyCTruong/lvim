@@ -28,9 +28,9 @@ tmux:
 
 Dotfiles can be installed using `stow`, which  is a symlink farm manager. It takes distinct packages of software and/or
 data located in separate directories on the filesystem, and makes them appear to be installed in the same place. For 
-example, install nvim by running `stow nvim`. Install everything (excluding files in this directory) by running `stow */`.
+example, install nvim by running `stow lvim`. Install everything (excluding files in the current directory) by running `stow */`.
 Stow treats each directory as the $HOME directory on your system and will create symlinks following the same file structure. 
-For example, the $HOME/.config/zsh/ directory will symlinked to $HOME/dotfiles/.config/zsh (assuming you cloned this
+For example, the $HOME/.config/zsh/ directory will symlinked to $HOME/dotfiles/zsh/.config/zsh (assuming you cloned this
 repo into $HOME).
 
 ## Notes
