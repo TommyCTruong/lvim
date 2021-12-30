@@ -26,7 +26,7 @@ M.config = function()
     -- char = "|",
     use_treesitter = true,
     show_trailing_blankline_indent = false,
-    show_current_context = true,
+    show_current_context = false,
     context_patterns = {
       "class",
       "return",
@@ -36,7 +36,7 @@ M.config = function()
       "^whle",
       "jsx_element",
       "^for",
-      "^object",
+     "^object",
       "^table",
       "block",
       "arguments",

@@ -22,7 +22,7 @@ M.config = function()
     },
     plugins = {
       gitsigns = { enabled = false }, -- disables git signs
-      -- your configuration comes here
+      -- your configuration comes ere
       -- or leave it empty to use the default sttings
       -- refer to the configuration section below
     },

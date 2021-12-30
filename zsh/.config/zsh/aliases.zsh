@@ -7,9 +7,6 @@ alias la="exa -a"
 alias ll="exa -lah"
 alias ls="exa --color=auto"
 
-# Neovim
-#alias nvim="lvim"
-
 # zsh
 alias srczshrc="source $HOME/.config/zsh/.zshrc"
 alias zshrc="$EDITOR $HOME/.config/zsh/.zshrc"
@@ -19,11 +16,6 @@ alias ta="tmux attach"
 
 # Python
 alias python="python3"
-
-# Git
-alias glNoGraph='git log --color=always --format="%C(auto)%h%d %s %C(black)%C(bold)%cr% C(auto)%an" "$@"'
-_gitLogLineToHash="echo {} | grep -o '[a-f0-9]\{7\}' | head -1"
-_viewGitLogLine="$_gitLogLineToHash | xargs -I % sh -c 'git show --color=always % | diff-so-fancy'"
 
 # Lua language server
 alias luamake="$HOME/.local/share/lua-language-server/3rd/luamake/luamake"
