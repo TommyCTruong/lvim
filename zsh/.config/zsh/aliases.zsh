@@ -20,9 +20,5 @@ alias python="python3"
 # Lua language server
 alias luamake="$HOME/.local/share/lua-language-server/3rd/luamake/luamake"
 
-# Kubernetes
-alias k="kubectl"
-complete -F __start_kubectl k
-
 # Tree
 alias tree="tree -aFC --dirsfirst -I .git"

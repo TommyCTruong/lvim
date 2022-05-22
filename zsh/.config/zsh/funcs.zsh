@@ -1,4 +1,4 @@
-############################ Change directory ############################
+########################### Change directory ############################
 
 # fd - cd to selected directory
 fd() {
@@ -42,6 +42,10 @@ fkill() {
 	if [ "x$pid" != "x" ]; then
 		echo $pid | xargs kill -${1:-9}
 	fi
+}
+
+portpid() {
+	lsof -n -i :$1 | grep LISTEN | awk -F' ' '{print $2}'
 }
 
 ############################ Git ############################

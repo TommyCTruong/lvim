@@ -21,6 +21,9 @@ lvim.builtin.terminal.active = true
 lvim.builtin.terminal.shading_factor = 1
 lvim.builtin.terminal.execs = {}
 
+-- NvimTree
+lvim.builtin.nvimtree.setup.filters.custom = { ".git", "node_modules", ".cache", "vendor", ".vscode" }
+
 -- Telescope
 lvim.builtin.telescope.defaults.file_ignore_patterns = { ".git", ".cache", "node_modules", "vendor", ".vscode" }
 lvim.builtin.telescope.defaults.mappings = (function()

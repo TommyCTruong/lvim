@@ -8,6 +8,7 @@ export PATH="$PATH:$HOME/.cargo/bin"
 export PATH="$PATH:$HOME/.local/scripts"
 export PATH="$PATH:$HOME/.local/bin"
 export PATH="$PATH:$HOME/.local/share/go/bin"
+export PATH="/opt/homebrew/opt/mongodb-community@4.4/bin:$PATH"
 
 # History.
 HISTFILE="$ZDOTDIR/.zsh_history"
